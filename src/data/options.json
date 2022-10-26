@@ -1,0 +1,19 @@
+{
+    "options": {
+        "firstAnswer" : [
+            {}, {}, {}, {}
+        ],
+
+        "secondAnswer" : [
+            {}, {}, {}, {}
+        ],
+
+        "thirdAnswer": [
+            {}, {}, {}, {}
+        ],
+
+        "fourthAnswer" : [
+            {}, {}, {}, {}
+        ]
+    }
+}

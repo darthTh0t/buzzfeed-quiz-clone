@@ -1,0 +1,23 @@
+{
+    "content": [
+        {
+            "id": 0,
+            "question": "Choose your vacation spot from the below"
+        }, 
+        
+        {
+            "id": 1,
+            "question": "Are you Vegan, vegetarian or can eat anything under the sun ?"
+        }, 
+        
+        {
+            "id": 2,
+            "question": "Where would you want your first date to be ?"
+        }, 
+        
+        {
+            "id": 3,
+            "question": "From below, which one would you choose for YOUR superpower ?"
+        }
+    ]
+}

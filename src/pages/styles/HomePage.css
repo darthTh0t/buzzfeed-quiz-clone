@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Secular One', sans-serif;
+}
+
+.image__bg{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../images/bg__image.jpg');
+    background-repeat: none;
+    background-size: 100%;
+    transform: scale(1.1);
+    color: black;
+    filter: blur(5px)
+}
+
+@media (min-width: 360px){
+    .image__bg{
+        background-repeat: none;
+        background-size: cover !important;
+        background-position: center center;
+    }
+}
+
+.top__el{
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    color: rgb(240, 240, 209);
+}
+
+div.top__el > h1{
+    font-size: 3rem;
+    transform: translateY(-200px);
+    transition: transform 0.4s ease;
+}
+
+div.top__el > button {
+    width: 30%;
+    margin: auto;
+    font-size: 2rem;
+    border-radius: 30px;
+    opacity: 0;
+    transition: opacity 1.9s ease-in;
+}
+
+.text__transition {
+    transform: translateY(0) !important;
+}
+
+.btn__transition {
+    opacity: 1 !important;
+}
