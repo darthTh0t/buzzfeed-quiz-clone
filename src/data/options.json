@@ -1,19 +1,95 @@
 {
-    "options": {
+    "content": {
         "firstAnswer" : [
-            {}, {}, {}, {}
+            {
+                "id": 1,
+                "answerText": "Mountains",
+                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "mountain"
+            }, 
+            
+            {
+                "id": 2,
+                "answerText": "Beaches",
+                "answerImage": "https://images.pexels.com/photos/1049298/pexels-photo-1049298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "white sand beach"
+            }, 
+            
+            {
+                "id": 3,
+                "answerText": "Forests",
+                "answerImage": "https://images.pexels.com/photos/5364988/pexels-photo-5364988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "forest camping"
+            }
         ],
 
         "secondAnswer" : [
-            {}, {}, {}, {}
+            {
+                "id": 1,
+                "answerText": "Balls",
+                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "mountain"
+            }, 
+            
+            {
+                "id": 2,
+                "answerText": "Spider",
+                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "mountain"
+            }, 
+            
+            {
+                "id": 1,
+                "answerText": "Doom",
+                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "mountain"
+            }
         ],
 
         "thirdAnswer": [
-            {}, {}, {}, {}
+            {
+                "id": 1,
+                "answerText": "Apple",
+                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "mountain"
+            }, 
+            
+            {
+                "id": 2,
+                "answerText": "Bag",
+                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "mountain"
+            }, 
+            
+            {
+                "id": 1,
+                "answerText": "Cat",
+                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "mountain"
+            }
         ],
 
         "fourthAnswer" : [
-            {}, {}, {}, {}
+            {
+                "id": 1,
+                "answerText": "Dog",
+                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "mountain"
+            }, 
+            
+            {
+                "id": 2,
+                "answerText": "Elephant",
+                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "mountain"
+            }, 
+            
+            {
+                "id": 1,
+                "answerText": "Fog",
+                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "mountain"
+            }
         ]
     }
 }

@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Answers = () => {
+
+const Answers = (props) => {
   return (
-    <div>Answers</div>
+    <div>
+      <h1>{props.text}</h1>
+    </div>
   )
 }
 
