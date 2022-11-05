@@ -5,7 +5,7 @@ import questions from '../data/questions.json'
 
 const SectionState = (props) => {
   
-  // set questions from json to an array of 4 elements
+	// set questions from json to an array of 4 elements
   const newQuestions = Object.keys(questions.content).map(key => questions.content[key].question)
   
   
