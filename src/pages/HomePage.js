@@ -27,7 +27,7 @@ const HomePage = () => {
     <>
       <div className='image__bg'></div>
       <div className='top__el'>
-        <h1 className = { `${isActive === false ? '' : 'text__transition'} max-md:text-lg`}>What Character from "The Boys" Is Likely To Date You?</h1>
+        <h1 className = { `${isActive === false ? '' : 'text__transition'} sm:max-md:text-xl md:text-5xl py-3`}>What Character from "The Boys" Is Likely To Date You?</h1>
         <button className={`${isActive === false ? btnClassName : btnClassName += ' btn__transition'} hover:bg-purple-700`} onClick={() => nextPage('/quiz')} >Let's Go!</button>
       </div>
     </>

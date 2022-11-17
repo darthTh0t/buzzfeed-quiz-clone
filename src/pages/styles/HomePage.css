@@ -19,14 +19,6 @@
     filter: blur(5px)
 }
 
-@media (min-width: 360px){
-    .image__bg{
-        background-repeat: none;
-        background-size: cover !important;
-        background-position: center center;
-    }
-}
-
 .top__el{
     position: absolute;
     z-index: 999;
@@ -40,7 +32,6 @@
 }
 
 div.top__el > h1{
-    font-size: 3rem;
     transform: translateY(-200px);
     transition: transform 0.4s ease;
 }
@@ -60,4 +51,14 @@ div.top__el > button {
 
 .btn__transition {
     opacity: 1 !important;
+}
+
+@media screen and (min-width: '360px') and (max-width: '576px'){
+    .image__bg{
+        background-repeat: none;
+        background-size: contain;
+        background-position: center center;
+        width: 100%;
+        height: 100%;
+    }
 }

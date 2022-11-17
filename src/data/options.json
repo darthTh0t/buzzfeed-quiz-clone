@@ -26,21 +26,21 @@
         "secondAnswer" : [
             {
                 "id": 1,
-                "answerText": "Balls",
+                "answerText": "Vegan",
                 "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "alt": "mountain"
             }, 
             
             {
                 "id": 2,
-                "answerText": "Spider",
+                "answerText": "Vegeterian",
                 "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "alt": "mountain"
             }, 
             
             {
                 "id": 1,
-                "answerText": "Doom",
+                "answerText": "Meat Eater",
                 "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "alt": "mountain"
             }

@@ -10,11 +10,10 @@ const SectionState = (props) => {
 
 	//useState for Question state
 	const [currentQuestion, setCurrentQuestion] = useState(0);
-	const newState = {
+	const [questionCtx, setQuestionCtx] = useState({
 		qID: 0,
 		questionTxt: newQuestions[currentQuestion],
-	};
-	const [questionCtx, setQuestionCtx] = useState(newState);
+	});
 
 	//useEffect for immedite rendering of questions
 	useEffect(() => {
@@ -22,7 +21,7 @@ const SectionState = (props) => {
 			qID: currentQuestion,
 			questionTxt: newQuestions[currentQuestion],
 		}));
-		//eslint-disable-next-line
+    //eslint-disable-next-line
 	}, [currentQuestion]);
 
 	const updateNextQuestion = () => {

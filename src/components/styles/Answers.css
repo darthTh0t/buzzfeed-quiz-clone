@@ -1,0 +1,15 @@
+.answerText{
+    backdrop-filter: blur(2px);
+    font-size: 1.25rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: font-size 120ms;
+}
+
+.answerText:hover{
+    font-size: 1.75rem;
+    color: rgb(140, 255, 0);
+}
