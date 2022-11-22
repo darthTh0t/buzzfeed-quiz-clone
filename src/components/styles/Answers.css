@@ -1,5 +1,5 @@
 .notSelectedAnswerText{
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px) brightness(50%);
     font-size: 1.25rem;
     height: 100%;
     width: 100%;
@@ -10,27 +10,42 @@
 }
 
 .selectedAnswerText{
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px) opacity(100%) brightness(66%);
     font-size: 1.75rem;
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(238, 78, 244);
+    color: rgb(255, 255, 255);
 }
 
 .notSelectedAnswerText:hover{
     font-size: 1.75rem;
-    color: rgb(238, 78, 244);
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(2px) opacity(100%) brightness(50%);
 }
 
 .isSelectedStyle{
-    border: solid 2px rgb(25, 10, 183);
+    border: solid 5px rgb(255, 255, 255);
     border-radius: 8px;
     pointer-events: none;
 }
 
 .isNotSelectedStyle{
     cursor: pointer;
+}
+
+@media (min-width: 360px) and (max-width: 576px){
+    .notSelectedAnswerText{
+        font-size: 0.9rem;
+    }
+
+    .notSelectedAnswerText:hover{
+        font-size: 1rem;
+    }
+    
+    .selectedAnswerText{
+        font-size: 1rem;
+    }
 }

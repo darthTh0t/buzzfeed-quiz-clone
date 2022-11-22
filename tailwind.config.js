@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    colors: {
+      'tahiti': '#3ab7bf',
+    },
     extend: {},
     screens: {
       'sm': '360px',

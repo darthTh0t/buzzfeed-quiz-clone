@@ -16,11 +16,10 @@ const AnswerBlock = () => {
 		setCurrentOption((prevCount) => optionCtx.questionCtx.qID)
 	}, [optionCtx.questionCtx.qID])
 
-	//to change the selected and non-selected answer appearances
 
 	return (
 		<>
-			<div className="grid grid-cols-3 h-30 my-6">
+			<div className="flex flex-col h-30 my-6">
 				{answerOptions[currentOption]?.map((optionItem) => (
 					<Answers
 						key={optionItem.id}

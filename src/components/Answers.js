@@ -28,7 +28,7 @@ const Answers = (props) => {
 	return (
 		<>
 			{props.text && <div
-				className={`mx-2 h-24 rounded-md hover:drop-shadow-md ${
+				className={`my-2 h-24 rounded-md hover:drop-shadow-md ${
 					isSelected ? "isSelectedStyle" : "isNotSelectedStyle"
 				}`}
 				onClick={answerHandler}
