@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <div className='rootEl'>
         <Routes>
-          <Route path='/' element={ <HomePage /> }></Route>
-          <Route path='/quiz' element={ <QuizPage /> }></Route>
-          <Route path='/result' element={ <FinalPage />}></Route>
+          <Route exact path='/' element={ <HomePage /> } />
+          <Route exact path='/quiz' element={ <QuizPage /> } />
+          <Route exact path='/result' element={ <FinalPage />} />
         </Routes>
       </div>
     </div>

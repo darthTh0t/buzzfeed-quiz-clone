@@ -1,4 +1,4 @@
-.answerText{
+.notSelectedAnswerText{
     backdrop-filter: blur(2px);
     font-size: 1.25rem;
     height: 100%;
@@ -9,7 +9,28 @@
     transition: font-size 120ms;
 }
 
-.answerText:hover{
+.selectedAnswerText{
+    backdrop-filter: blur(2px);
     font-size: 1.75rem;
-    color: rgb(140, 255, 0);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(238, 78, 244);
+}
+
+.notSelectedAnswerText:hover{
+    font-size: 1.75rem;
+    color: rgb(238, 78, 244);
+}
+
+.isSelectedStyle{
+    border: solid 2px rgb(25, 10, 183);
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.isNotSelectedStyle{
+    cursor: pointer;
 }

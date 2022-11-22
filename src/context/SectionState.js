@@ -1,34 +1,40 @@
 import { React, useState, useEffect } from "react";
 import QuestionContext from "./QuestionContext";
 import questions from "../data/questions.json";
+import { useNavigate } from "react-router-dom";
+
+// set questions from json to an array of 4 elements
+const newQuestions = Object.values(questions.content).map(
+	val => val.question
+);
 
 const SectionState = (props) => {
-	// set questions from json to an array of 4 elements
-	const newQuestions = Object.keys(questions.content).map(
-		(key) => questions.content[key].question
-	);
 
 	//useState for Question state
 	const [currentQuestion, setCurrentQuestion] = useState(0);
-	const [questionCtx, setQuestionCtx] = useState({
+	const newQuestionsArr = {
 		qID: 0,
 		questionTxt: newQuestions[currentQuestion],
-	});
+	}
+	const [questionCtx, setQuestionCtx] = useState(newQuestionsArr);
+	const navigate = useNavigate()
 
 	//useEffect for immedite rendering of questions
 	useEffect(() => {
-		setQuestionCtx(() => ({
+		setQuestionCtx(prevState => ({
+			...prevState,
 			qID: currentQuestion,
-			questionTxt: newQuestions[currentQuestion],
+			questionTxt: newQuestions[currentQuestion], 
 		}));
-    //eslint-disable-next-line
+		
 	}, [currentQuestion]);
 
 	const updateNextQuestion = () => {
-		if (currentQuestion > newQuestions.length) {
-			console.log("no more questions");
-		} else {
+		if (!(currentQuestion >= newQuestions.length)) {
 			setCurrentQuestion((nextCurrentQuestion) => nextCurrentQuestion + 1);
+		}
+		else{
+			navigate('/result')
 		}
 	};
 

@@ -25,21 +25,21 @@
 
         "secondAnswer" : [
             {
-                "id": 1,
+                "id": 4,
                 "answerText": "Vegan",
                 "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "alt": "mountain"
             }, 
             
             {
-                "id": 2,
+                "id": 5,
                 "answerText": "Vegeterian",
                 "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "alt": "mountain"
             }, 
             
             {
-                "id": 1,
+                "id": 6,
                 "answerText": "Meat Eater",
                 "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "alt": "mountain"
@@ -48,21 +48,21 @@
 
         "thirdAnswer": [
             {
-                "id": 1,
+                "id": 7,
                 "answerText": "Apple",
                 "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "alt": "mountain"
             }, 
             
             {
-                "id": 2,
+                "id": 8,
                 "answerText": "Bag",
                 "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "alt": "mountain"
             }, 
             
             {
-                "id": 1,
+                "id": 9,
                 "answerText": "Cat",
                 "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "alt": "mountain"
@@ -71,21 +71,21 @@
 
         "fourthAnswer" : [
             {
-                "id": 1,
+                "id": 10,
                 "answerText": "Dog",
                 "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "alt": "mountain"
             }, 
             
             {
-                "id": 2,
+                "id": 11,
                 "answerText": "Elephant",
                 "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "alt": "mountain"
             }, 
             
             {
-                "id": 1,
+                "id": 12,
                 "answerText": "Fog",
                 "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "alt": "mountain"

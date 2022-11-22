@@ -17,13 +17,15 @@ const AnswerBlock = () => {
 		setCurrentOption((prevCount) => optionCtx.questionCtx.qID)
 	}, [optionCtx.questionCtx.qID])
 
+	//to change the selected and non-selected answer appearances
+
 	return (
 		<>
 			<div className="grid grid-cols-3 h-30 my-6">
 				{answerOptions[currentOption]?.map((optionItem) => (
 					<Answers
-						text={optionItem.answerText}
 						key={optionItem.id}
+						text={optionItem.answerText}
 						image={optionItem.answerImage}
 					/>
 				))}

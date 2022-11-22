@@ -9,4 +9,12 @@ So instead, I used **`useContext`** hook and it has made things easier for me. I
 
 I will try my very best to update this **ReadME** every time I commit to the branch with date and time, as it can be seen as a journal of a newbie in this exciting world of ***React***
 
+## 22 Nov 2022
+
+I didn't think I would make a simple quiz app to a bit more complicated one, atleast for one at my level. Necessary functionalities are added:
+    - `maintain state between answer block and its dependent state of buttons`
+    - `maintain the data between question changes`
+    - `tried to inculcate the coreect way of updating state with objects and arrays`
+
+
 ## Have a wonderful time!
