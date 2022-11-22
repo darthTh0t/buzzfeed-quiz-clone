@@ -26,68 +26,68 @@
         "secondAnswer" : [
             {
                 "id": 4,
-                "answerText": "Vegan",
-                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                "alt": "mountain"
+                "answerText": "Vegan/Vegeterian",
+                "answerImage": "https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg",
+                "alt": "vegan food"
             }, 
             
             {
                 "id": 5,
-                "answerText": "Vegeterian",
-                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                "alt": "mountain"
+                "answerText": "Meat Eater",
+                "answerImage": "https://images.pexels.com/photos/2232433/pexels-photo-2232433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "chicken"
             }, 
             
             {
                 "id": 6,
-                "answerText": "Meat Eater",
-                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                "alt": "mountain"
+                "answerText": "Omnivore",
+                "answerImage": "https://images.pexels.com/photos/1850595/pexels-photo-1850595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "indian lunch"
             }
         ],
 
         "thirdAnswer": [
             {
                 "id": 7,
-                "answerText": "Apple",
+                "answerText": "Candle Lit Dinner in 5 Star Restaurant",
                 "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                "alt": "mountain"
+                "alt": "candle lit dinner"
             }, 
             
             {
                 "id": 8,
-                "answerText": "Bag",
-                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                "alt": "mountain"
+                "answerText": "Carnival with some Fast Food",
+                "answerImage": "https://media.istockphoto.com/id/1064659042/es/foto/amigos-en-el-parque-de-atracciones.jpg?s=1024x1024&w=is&k=20&c=0jqyIATILuYo368ib5WIuIkuYcp2tepZMxQpQVPy1qg=",
+                "alt": "carnival"
             }, 
             
             {
                 "id": 9,
-                "answerText": "Cat",
-                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                "alt": "mountain"
+                "answerText": "Something wild and adventurous",
+                "answerImage": "https://images.pexels.com/photos/725255/pexels-photo-725255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "alt": "adventure"   
             }
         ],
 
         "fourthAnswer" : [
             {
                 "id": 10,
-                "answerText": "Dog",
-                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "answerText": "Super Strength",
+                "answerImage": "https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "alt": "mountain"
             }, 
             
             {
                 "id": 11,
-                "answerText": "Elephant",
-                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "answerText": "Invisibility",
+                "answerImage": "https://media.istockphoto.com/id/518912433/photo/invisible-man-wearing-a-suit-and-waving-his-hand.jpg?s=1024x1024&w=is&k=20&c=txCsOkXIMzCRedCO0F7IqPLBam_2bbsY8DsfwBYTQkA=",
                 "alt": "mountain"
             }, 
             
             {
                 "id": 12,
-                "answerText": "Fog",
-                "answerImage": "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "answerText": "Flight",
+                "answerImage": "https://media.istockphoto.com/id/628739468/vector/business-concept-vector-illustration.jpg?s=1024x1024&w=is&k=20&c=PgKIkhXXDRGe-RzuRDG-am8o0w3UPgR79d936B6uLyE=",
                 "alt": "mountain"
             }
         ]

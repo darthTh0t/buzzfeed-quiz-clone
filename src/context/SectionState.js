@@ -21,13 +21,19 @@ const SectionState = (props) => {
 
 	//useEffect for immedite rendering of questions
 	useEffect(() => {
-		setQuestionCtx(prevState => ({
-			...prevState,
-			qID: currentQuestion,
-			questionTxt: newQuestions[currentQuestion], 
-		}));
+		if(currentQuestion < 4){
+			setQuestionCtx(prevState => ({
+				...prevState,
+				qID: currentQuestion,
+				questionTxt: newQuestions[currentQuestion], 
+			}));
+		}
+		else{
+			navigate('/result')
+		}
 		
-	}, [currentQuestion]);
+		
+	}, [currentQuestion, navigate]);
 
 	const updateNextQuestion = () => {
 		if (!(currentQuestion >= newQuestions.length)) {

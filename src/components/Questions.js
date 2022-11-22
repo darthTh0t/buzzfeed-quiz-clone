@@ -3,10 +3,10 @@ import QuestionContext from '../context/QuestionContext'
 
 const Questions = () => {
 
-  const newContext = useContext(QuestionContext)
+  const { questionCtx } = useContext(QuestionContext)
   return (
     <>
-      <h1 className='text-4xl text-zinc-50 py-10 sm:max-md:text-xl'>{ newContext.questionCtx.questionTxt }</h1>
+      {<h1 className='text-4xl text-zinc-50 py-10 sm:max-md:text-xl'>{ questionCtx.questionTxt }</h1>}
     </>
   )
 }

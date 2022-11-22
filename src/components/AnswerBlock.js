@@ -10,7 +10,6 @@ const AnswerBlock = () => {
 	const answerOptions = Object.keys(options.content).map(
 		(key) => options.content[key]
 	)
-
 	// state for changing option and rendering it immediately
 	const [currentOption, setCurrentOption] = useState(0)
 	useEffect(() => {

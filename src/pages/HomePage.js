@@ -12,11 +12,10 @@ const HomePage = () => {
   const toggleActive = (isActive) => {
     if(!isActive) {
       setIsActive(true)
-      console.log(isActive)
     }
     else {
       setIsActive(false)
-      console.log(isActive)}
+    }
   }
   
   useEffect(() => {
